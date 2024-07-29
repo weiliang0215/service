@@ -1,0 +1,16 @@
+port : 8081
+ip : 127.0.0.1
+
+jwt:
+  key : 2201a
+  access_token_expire : 60
+  refresh_token_expire : 31536000
+
+consul :
+  consul_host : 127.0.0.1
+  consul_port : 8500
+  user_srv_name : user_srv
+  tags :
+    - user_srv
+    - shop
+    - wei

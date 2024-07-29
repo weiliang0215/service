@@ -1,0 +1,76 @@
+// 声明 proto 语法版本，固定值
+syntax = "proto3";
+
+// 生成 golang 代码后的包名
+option go_package = "./proto";
+
+
+service User {
+  // 获取用户列表
+  rpc GetUserList(PageInfoReq) returns (GetUserListResp);
+  // 根据手机号获取用户详情
+  rpc GetUserInfoByMobile(GetUserInfoByMobileReq) returns (UserInfo);
+  // 检测密码
+  rpc CheckPassword(CheckPasswordReq) returns (CheckPasswordResp);
+  // 用户注册
+  rpc CreateUser(CreateUserReq) returns (UserInfo);
+  // 用户修改
+  rpc UpdateUser(UpdateUserReq) returns (UserInfo);
+  // 用户删除
+  rpc DeleteUser(DeleteUserReq) returns (DeleteUserResp);
+}
+
+
+message PageInfoReq {
+  int64 page = 1;
+  int64 limit = 2;
+}
+
+message UserInfo {
+  int64 id = 1;
+  string username = 2;
+  string password = 3;
+  string email = 4;
+  string mobile = 5;
+  int64 age = 6;
+  int32 sex = 7;
+}
+
+message GetUserListResp {
+  int32 total = 1;
+  repeated UserInfo data = 2;
+}
+
+message GetUserInfoByMobileReq {
+  string mobile = 1;
+}
+
+message CheckPasswordReq {
+  string password = 1;
+  string encryptionPassword = 2;
+}
+
+message CheckPasswordResp {
+  bool success = 1;
+}
+
+message CreateUserReq {
+  string username = 1;
+  string password = 2;
+  string mobile = 3;
+}
+
+message UpdateUserReq {
+  int64 id = 1;
+  string email = 2;
+  int64 age = 3;
+  int32 sex = 4;
+}
+
+message DeleteUserReq {
+  string mobile = 1;
+}
+
+message DeleteUserResp{
+  bool success = 1;
+}
