@@ -1,9 +1,9 @@
 package initlize
 
 import (
-	"0729/shop_bff/user_bff/global"
 	"fmt"
 	_ "github.com/mbobakov/grpc-consul-resolver" // It's important
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
 	userPb "github.com/weiliang0215/user_proto/proto"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

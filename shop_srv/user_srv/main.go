@@ -1,11 +1,11 @@
 package main
 
 import (
-	"0729/shop_srv/user_srv/global"
-	"0729/shop_srv/user_srv/handler"
-	_ "0729/shop_srv/user_srv/initlize"
 	"fmt"
 	"github.com/hashicorp/consul/api"
+	"github.com/weiliang0215/service/shop_srv/user_srv/global"
+	"github.com/weiliang0215/service/shop_srv/user_srv/handler"
+	_ "github.com/weiliang0215/service/shop_srv/user_srv/initlize"
 
 	userPb "github.com/weiliang0215/user_proto/proto"
 	"go.uber.org/zap"

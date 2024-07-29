@@ -1,7 +1,7 @@
 package global
 
 import (
-	"0729/shop_srv/user_srv/config"
+	"github.com/weiliang0215/service/shop_srv/user_srv/config"
 	"gorm.io/gorm"
 )
 

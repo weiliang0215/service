@@ -1,9 +1,9 @@
 package initlize
 
 import (
-	"0729/shop_srv/user_srv/global"
-	"0729/shop_srv/user_srv/model"
 	"fmt"
+	"github.com/weiliang0215/service/shop_srv/user_srv/global"
+	"github.com/weiliang0215/service/shop_srv/user_srv/model"
 	"go.uber.org/zap"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

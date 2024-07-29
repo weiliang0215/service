@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"0729/shop_bff/user_bff/global"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
 	"net/http"
 	"strings"
 )

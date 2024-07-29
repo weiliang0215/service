@@ -1,8 +1,8 @@
 package global
 
 import (
-	"0729/shop_bff/user_bff/config"
 	ut "github.com/go-playground/universal-translator"
+	"github.com/weiliang0215/service/shop_bff/user_bff/config"
 	userPb "github.com/weiliang0215/user_proto/proto"
 )
 

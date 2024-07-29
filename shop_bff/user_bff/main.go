@@ -1,9 +1,10 @@
 package main
 
 import (
-	"0729/shop_bff/user_bff/global"
-	_ "0729/shop_bff/user_bff/initlize"
-	"0729/shop_bff/user_bff/router"
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
+	_ "github.com/weiliang0215/service/shop_bff/user_bff/initlize"
+	"github.com/weiliang0215/service/shop_bff/user_bff/router"
+
 	"context"
 	"fmt"
 	"log"

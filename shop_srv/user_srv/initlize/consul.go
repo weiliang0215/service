@@ -1,9 +1,9 @@
 package initlize
 
 import (
-	"0729/shop_srv/user_srv/global"
 	"fmt"
 	"github.com/hashicorp/consul/api"
+	"github.com/weiliang0215/service/shop_srv/user_srv/global"
 
 	"go.uber.org/zap"
 )

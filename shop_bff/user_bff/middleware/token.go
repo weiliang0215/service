@@ -1,11 +1,11 @@
 package middleware
 
 import (
-	"0729/shop_bff/user_bff/global"
-	"0729/shop_bff/user_bff/model"
-	"0729/shop_bff/user_bff/server"
 	"encoding/json"
 	"github.com/gin-gonic/gin"
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
+	"github.com/weiliang0215/service/shop_bff/user_bff/model"
+	"github.com/weiliang0215/service/shop_bff/user_bff/server"
 	"net/http"
 )
 

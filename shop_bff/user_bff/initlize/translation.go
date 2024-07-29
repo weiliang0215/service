@@ -1,7 +1,6 @@
 package initlize
 
 import (
-	"0729/shop_bff/user_bff/global"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/locales/en"
 	"github.com/go-playground/locales/zh"
@@ -9,6 +8,7 @@ import (
 	"github.com/go-playground/validator/v10"
 	enTranslations "github.com/go-playground/validator/v10/translations/en"
 	zhTranslations "github.com/go-playground/validator/v10/translations/zh"
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
 	"go.uber.org/zap"
 	"reflect"
 	"strings"

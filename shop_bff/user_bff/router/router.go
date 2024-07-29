@@ -1,9 +1,9 @@
 package router
 
 import (
-	"0729/shop_bff/user_bff/controller"
-	"0729/shop_bff/user_bff/middleware"
 	"github.com/gin-gonic/gin"
+	"github.com/weiliang0215/service/shop_bff/user_bff/controller"
+	"github.com/weiliang0215/service/shop_bff/user_bff/middleware"
 )
 
 func InitRouter() *gin.Engine {

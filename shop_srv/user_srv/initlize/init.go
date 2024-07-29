@@ -1,9 +1,9 @@
 package initlize
 
 import (
-	"0729/shop_srv/user_srv/global"
 	"fmt"
 	uuid "github.com/satori/go.uuid"
+	"github.com/weiliang0215/service/shop_srv/user_srv/global"
 	"os"
 )
 

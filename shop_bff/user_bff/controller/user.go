@@ -1,12 +1,12 @@
 package controller
 
 import (
-	"0729/shop_bff/user_bff/forms"
-	"0729/shop_bff/user_bff/global"
-	"0729/shop_bff/user_bff/server"
 	"context"
 	"encoding/json"
 	"github.com/gin-gonic/gin"
+	"github.com/weiliang0215/service/shop_bff/user_bff/forms"
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
+	"github.com/weiliang0215/service/shop_bff/user_bff/server"
 	userPb "github.com/weiliang0215/user_proto/proto"
 	"net/http"
 	"strconv"

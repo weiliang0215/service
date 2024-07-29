@@ -1,10 +1,10 @@
 package initlize
 
 import (
-	"0729/shop_bff/user_bff/global"
 	"fmt"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
 	"go.uber.org/zap"
 )
 

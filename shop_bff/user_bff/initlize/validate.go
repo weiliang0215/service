@@ -1,11 +1,11 @@
 package initlize
 
 import (
-	"0729/shop_bff/user_bff/global"
-	"0729/shop_bff/user_bff/validate"
 	"github.com/gin-gonic/gin/binding"
 	ut "github.com/go-playground/universal-translator"
 	"github.com/go-playground/validator/v10"
+	"github.com/weiliang0215/service/shop_bff/user_bff/global"
+	"github.com/weiliang0215/service/shop_bff/user_bff/validate"
 )
 
 func InitRegisterValidator() {

@@ -1,12 +1,12 @@
 package handler
 
 import (
-	"0729/shop_srv/user_srv/global"
-	"0729/shop_srv/user_srv/model"
 	"context"
 	"crypto/sha512"
 	"fmt"
 	"github.com/anaskhan96/go-password-encoder"
+	"github.com/weiliang0215/service/shop_srv/user_srv/global"
+	"github.com/weiliang0215/service/shop_srv/user_srv/model"
 	userPb "github.com/weiliang0215/user_proto/proto"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
